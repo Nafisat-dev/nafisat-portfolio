@@ -15,8 +15,7 @@ A modern, responsive, and feature-rich professional portfolio website built with
 
 ## 🚀 Live Demo
 
-[**View the live site here**](https://nafisat-portfolio.netlify.app/) &lt;-- *Replace with your actual Netlify URL*
-
+[**View the live site here**](https://nafisat-portfolio.netlify.app/) &lt;-- 
 ---
 
 ## 🌟 About the Project
