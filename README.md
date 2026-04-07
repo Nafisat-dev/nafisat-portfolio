@@ -112,7 +112,7 @@ This will create a `dist` folder with the optimized production build of your app
 Nafisat Adepoju
 
 - **GitHub**: [Nafisat-dev](https://github.com/Nafisat-dev)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-username/) &lt;-- *Please provide your LinkedIn profile URL*
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-username/) &lt;-- 
 
 ---
 

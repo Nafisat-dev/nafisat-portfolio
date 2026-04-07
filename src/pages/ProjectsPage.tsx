@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import { projects, categories, type Category, type Project } from '@/data/projects';
 import { HeroCarousel } from '@/components/ui/hero-carousel';
@@ -128,7 +128,7 @@ const ProjectsPage: React.FC = () => {
                 filteredProjects.map((project, index) => (
                   <div
                     key={project.id}
-                    onClick={() => setSelectedProject(project)}
+                    onClick={() => handleProjectSelect(project)}
                     className={`glass-card p-3 cursor-pointer glass-hover group transition-all duration-500 delay-${(index % 3) * 100}`}
                   >
                     <div className="aspect-[4/3] rounded-xl overflow-hidden mb-4 relative">
@@ -162,7 +162,7 @@ const ProjectsPage: React.FC = () => {
         </section>
 
         {/* Section D — Project Modal */}
-        <Dialog open={!!selectedProject} onOpenChange={() => setSelectedProject(null)}>
+        <Dialog open={!!selectedProject} onOpenChange={() => handleProjectSelect(null)}>
           <DialogContent className="!max-w-3xl max-h-[90vh] overflow-y-auto glass-card-solid p-0 gap-0 border-none">
             {selectedProject && (
               <div className="flex flex-col">
